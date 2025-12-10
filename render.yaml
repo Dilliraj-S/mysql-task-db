@@ -1,0 +1,7 @@
+services:
+  - type: mysql
+    name: mysql-task-db
+    disk:
+      name: data
+      mountPath: /var/lib/mysql
+      sizeGB: 1
